@@ -150,4 +150,6 @@ rm -rf node_modules && yarn install
 yarn build
 ```
 
+3. Use `npm ls`, search `@ckeditor` to see if there is duplicate modules.
+
 If the problem still exist, please read [the official documentation](https://ckeditor.com/docs/ckeditor5/latest/framework/guides/support/error-codes.html#error-ckeditor-duplicated-modules),
