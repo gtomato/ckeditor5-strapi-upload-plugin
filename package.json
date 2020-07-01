@@ -1,6 +1,6 @@
 {
   "name": "@gtomato/ckeditor5-strapi-upload-plugin",
-  "version": "1.0.0-beta.0",
+  "version": "1.0.0-beta.1",
   "description": "CKEditor 5 Strapi upload adapter plugin",
   "main": "index.js",
   "scripts": {
