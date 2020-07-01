@@ -13,8 +13,8 @@
   "author": "gary.yh.lo@gtomato.com",
   "license": "MIT",
   "dependencies": {
-    "@ckeditor/ckeditor5-core": ">=20.0.0",
-    "@ckeditor/ckeditor5-upload": ">=20.0.0"
+    "@ckeditor/ckeditor5-core": ">=19.0.0",
+    "@ckeditor/ckeditor5-upload": ">=19.0.0"
   },
   "devDependencies": {
     "eslint": "^7.3.1",
