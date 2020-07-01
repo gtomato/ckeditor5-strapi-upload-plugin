@@ -4,6 +4,8 @@
 2. Register this plugin into your custom build
 3. Integrate with Strapi
 
+![preview](preview/strapi-ckeditor-image.gif)
+
 ## 1. Create your own CKEditor
 
 For more details, check this [official tutorial](https://ckeditor.com/docs/ckeditor5/latest/builds/guides/integration/installing-plugins.html).

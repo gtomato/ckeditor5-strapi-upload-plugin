@@ -1,9 +1,23 @@
 ## Bump Version
 
 1. bump version of `package.json > version` that follow semantic versioning
-1. commit
-1. create a git tag for this version
-1. push the tag (GitHub Action will publish automatically)
+2. commit
+
+```
+git commit -m "bump version to x.x.x"
+```
+
+3. create a git tag for this version
+
+```
+git tag x.x.x
+```
+
+4. push the tag (GitHub Action will publish automatically)
+
+```
+git push origin x.x.x
+```
 
 ## Manual Publish to npm
 
