@@ -12,7 +12,7 @@
   ],
   "author": "gary.yh.lo@gtomato.com",
   "license": "MIT",
-  "dependencies": {
+  "peerDependencies": {
     "@ckeditor/ckeditor5-core": ">=19.0.0",
     "@ckeditor/ckeditor5-upload": ">=19.0.0"
   },
