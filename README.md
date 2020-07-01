@@ -28,7 +28,7 @@ yarn add -D ckeditor5-strapi-upload-plugin
 ```
 
 Go to `src/ckeditor.js`, install this plugin.
-```js
+```diff
 +import { StrapiUploadAdapter } from 'ckeditor5-strapi-upload-plugin';
 
 export default class ClassicEditor extends ClassicEditorBase {}
