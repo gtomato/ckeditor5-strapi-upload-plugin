@@ -133,8 +133,16 @@ class Adapter {
             : genericErrorText,
         )
       }
+      
+      const sizes = {}
+      Object.values(response[0].formats || []).forEach((format) => {
+        sizes[format.width.toString()] = format.url
+      })
 
-      resolve(response[0].url ? { default: response[0].url } : null)
+      resolve(response[0].url ? {
+        default: response[0].url,
+        ...sizes,
+      } : null)
     })
 
     // Upload progress when it is supported.
